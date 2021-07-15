@@ -1,13 +1,14 @@
-# Code and Data Supplement for Research Paper entitled "Data-driven competitor-aware positioning in on-demand vehicle rental networks"
+# CSVP_Code_Supplement
 
-## Description
-This repository contains comprehensive data and code samples to facilitate replication and benchmark analyses based on the research paper entitled "Data-driven competitor-aware positioning in on-demand vehicle rental networks". In particular it contains (1) sample real-world data for xxxx, (2) Julia code of the optimization model and (3) Julia code of the simulation framework.
+This repository contains the code and data supplement for the research paper entitled __"Data-driven competitor-aware positioning in on-demand vehicle rental networks"__.
+
+The provided data and code samples are intended to facilitate replication and benchmark analyses of the presented research. In particular it contains (1) sample real-world carsharing and contextual data for a full week, (2) Julia code of the optimization model and (3) Julia code of the simulation framework.
 
 For ease of use, all code has been compiled into a single jupyter notebook (.ipynb) with extensive annotations and descriptions.
 
-## Instructions
+## Requirements
 
-Before executing the code make sure to set up the environment correctly. The code is tested for `Julia  Version 1.5.3` with the following installed packages.
+All code has been tested for `Julia  Version 1.5.3` with the following installed packages.
 
 - "CSV"          => v"0.8.3"
 - "GLPK"         => v"0.14.6"
@@ -23,11 +24,11 @@ Before executing the code make sure to set up the environment correctly. The cod
 - "Gurobi"       => v"0.9.9"
 - "DataFrames"   => v"0.22.5"
 
-
+To ensure optimal performance, a working installation of [Gurobi Optimizer](https://www.gurobi.com/downloads/?campaignid=2027425879&adgroupid=77414946451&creative=375332431095&keyword=gurobi%20optimizer&matchtype=e&gclid=Cj0KCQjwub-HBhCyARIsAPctr7yz1YZXABCpaVcNjI7QEwblyzQ3ypZBcAFa2R4CkurhkmaJB0it-eQaAhNKEALw_wcB) is also recommended. If Gurobi Optimizer is not available, the code allows for easy switching to an open source mixed integer linear solver such as GLPK.
 
 
 ## References
 
-For details and further description please refer to the following paper:
+For further details please refer to the following paper:
 
 <REFERENCE OF PUBLISHED PAPER TO BE ADDED>
