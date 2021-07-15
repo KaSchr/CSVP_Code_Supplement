@@ -1,8 +1,8 @@
 # CSVP_Code_Supplement
 
-This repository contains the code and data supplement for the research paper entitled __"Data-driven competitor-aware positioning in on-demand vehicle rental networks"__.
+This repository contains the code and data supplement to accompany the research paper entitled __"Data-driven competitor-aware positioning in on-demand vehicle rental networks"__. The paper proposes a novel operational problem that considers vehicle positioning in on-demand rental networks such as carsharing in the wider context of a competitive market in which users select vehicles based on access. The presented solution approach combines online machine learning to predict market-level demand and supply with dynamic mixed integer non-linear programming (MINLP). For evaluation a discrete event simulation based on real-world data from Car2Go and DriveNow is used.
 
-The provided data and code samples are intended to facilitate replication and benchmark analyses of the presented research. In particular it contains (1) sample real-world carsharing and contextual data for a full week, (2) Julia code of the optimization model and (3) Julia code of the simulation framework.
+The provided data and code samples focus on the optimization and simulation aspect of the paper and are intended to facilitate replication and benchmark analyses of the presented research. In particular the repository contains (1) sample real-world carsharing and contextual data for a full week, (2) Julia code of the optimization model and (3) Julia code of the simulation framework.
 
 For ease of use, all code has been compiled into a single jupyter notebook (.ipynb) with extensive annotations and descriptions.
 
