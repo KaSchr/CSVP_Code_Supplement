@@ -29,4 +29,4 @@ To ensure optimal performance, a working installation of [Gurobi Optimizer](http
 
 ## References
 
-For further details please refer to the following research paper: *<REFERENCE OF PUBLISHED PAPER TO BE ADDED>*
+For further details please refer to the following research paper: *REFERENCE OF PUBLISHED PAPER TO BE ADDED*
