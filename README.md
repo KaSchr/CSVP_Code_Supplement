@@ -24,7 +24,7 @@ All code has been tested for `Julia  Version 1.5.3` with the following installed
 - "Gurobi"       => v"0.9.9"
 - "DataFrames"   => v"0.22.5"
 
-To ensure optimal performance, a working installation of [Gurobi Optimizer](https://www.gurobi.com/downloads/?campaignid=2027425879&adgroupid=77414946451&creative=375332431095&keyword=gurobi%20optimizer&matchtype=e&gclid=Cj0KCQjwub-HBhCyARIsAPctr7yz1YZXABCpaVcNjI7QEwblyzQ3ypZBcAFa2R4CkurhkmaJB0it-eQaAhNKEALw_wcB) is also recommended. If Gurobi Optimizer is not available, the code allows for easy switching to an open source mixed integer linear solver such as GLPK.
+To ensure optimal performance, a working installation of [Gurobi Optimizer](https://www.gurobi.com/downloads/?campaignid=2027425879&adgroupid=77414946451&creative=375332431095&keyword=gurobi%20optimizer&matchtype=e&gclid=Cj0KCQjwub-HBhCyARIsAPctr7yz1YZXABCpaVcNjI7QEwblyzQ3ypZBcAFa2R4CkurhkmaJB0it-eQaAhNKEALw_wcB) is also recommended. If Gurobi Optimizer is not available, the code allows for easy switching to an open source mixed integer linear solver such as CBC or GLPK.
 
 
 ## References
