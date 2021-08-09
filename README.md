@@ -8,7 +8,7 @@ For ease of use, all code has been compiled into a single jupyter notebook (.ipy
 
 ## Requirements
 
-All code has been tested for `Julia  Version 1.5.3` with the following installed packages.
+All optimization and simulation code has been tested for `Julia  Version 1.5.3` with the following installed packages.
 
 - "CSV"          => v"0.8.3"
 - "GLPK"         => v"0.14.6"
